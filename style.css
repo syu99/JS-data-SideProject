@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "karate";
+    src: url("font/karate.ttf");
+   }
+
+   @font-face {
+    font-family: "yozakura";
+    src: url("font/YozakuraJP-Regular.otf");
+   }
+
+#img{
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+	height: 250px;
+}
+
+
+ body {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-size: contain;
+    background-color: cornflowerblue;
+ }
+
+ h1{
+  
+    font-family: yozakura;
+   text-align: center;
+    font-style: oblique;
+ }
+
+
+ 
+#kungfu{
+    font-family: yozakura;
+    background-color: lightsalmon;
+}
+
+#karate{
+    font-family: yozakura;
+    background-color: plum;
+
+}
+

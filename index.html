@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS et css-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"
+        defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"
+        defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"
+        defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!--*************************************************************************************************************************-->
+
+
+    <title>Générateur de citations karaté vs kung-fu</title>
+</head>
+
+<h1>Karaté vs Kung-Fu</h1>
+
+<body>
+    <!-- image de fond -->
+    <div>
+        <img src="https://media.giphy.com/media/hTNg2Nz8z9lJoLsHUQ/source.gif" id="img" alt="maitre chinois">
+    </div>
+
+    <div class="container-fluid setting">
+        <div class="row justify-content-center">
+            <h2>Choisi le nombre de citations</h2>
+        </div>
+        <div class="row justify-content-center">
+
+            <!-- selection du nombre de phrases -->
+            <form>
+                <div class="form-group">
+                    <label for="quote"> (5 citations max)</label>
+                    <input class="form-control" type="number" name="NbQuote" id="NbQuote" min="1" max="5" value="1">
+                </div>
+            </form>
+
+            <!-- titre h2 -->
+        </div>
+        <div class="container"></div>
+        <div class="row justify-content-center">
+            <h2>Choisis le type de tes citations</h2>
+        </div>
+
+        <!-- les boutons -->
+        <div id="container-fin" class="row justify-content-center">
+            <button id="kungfu" class="btn btn-large btn-success">Kung-fu</button>
+            <button id="karate" class="btn btn-large btn-danger">Karaté</button>
+            <button id="stopIt" type="button" class="btn btn-outline-dark"> Stop !</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- zone de texte -->
+    <div class="container justify-content-center" id="textZone"> </div>
+
+</body>
+
+</html>
