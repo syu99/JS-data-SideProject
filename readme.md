@@ -13,7 +13,7 @@ JavaScript et il est possible de générer entre 1 et 5 phrases à la fois
 programme.
 
 ## *Preview*
-
+https://syu99.github.io/Generateur-de-phrases-aleatoires_Js/
 ![preview du programme](preview/p5.png)
 
 
