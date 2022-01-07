@@ -1,3 +1,5 @@
+1
+
 # *Générateur de citations aléatoires Karaté vs kung-fu*
 
 ## *Présentation*
