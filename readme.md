@@ -1,4 +1,3 @@
-1
 
 # *Générateur de citations aléatoires Karaté vs kung-fu*
 
@@ -16,7 +15,7 @@ programme.
 
 ## *Preview*
 https://syu99.github.io/Generateur-de-phrases-aleatoires_Js/
-![preview du programme](preview/p5.png) 66
+![preview du programme](preview/p5.png) 
 
 
 
