@@ -15,7 +15,7 @@ programme.
 
 ## *Preview*
 https://syu99.github.io/Generateur-de-phrases-aleatoires_Js/
-![preview du programme](preview/p5.png) 
+![preview du programme](preview/p5.png) .
 
 
 
